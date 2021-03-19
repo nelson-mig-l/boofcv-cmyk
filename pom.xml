@@ -23,4 +23,26 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub nelson-mig-l Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/nelson-mig-l/boofcv-cmyk</url>
+        </repository>
+    </distributionManagement>
+
 </project>
