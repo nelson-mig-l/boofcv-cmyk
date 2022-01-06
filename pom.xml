@@ -7,18 +7,18 @@
 
     <artifactId>boofcv-cmyk</artifactId>
     <groupId>nelson.boofcv</groupId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <dependencies>
         <dependency>
             <groupId>org.boofcv</groupId>
             <artifactId>boofcv-all</artifactId>
-            <version>0.36</version>
+            <version>0.39.1</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -36,6 +36,11 @@
             </plugin>
         </plugins>
     </build>
+
+    <scm>
+        <developerConnection>scm:git:https://github.com/nelson-mig-l/boofcv-cmyk.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
 
     <distributionManagement>
         <repository>
